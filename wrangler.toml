@@ -5,13 +5,9 @@ pages_build_output_dir = "./"
 [env.production]
 name = "home-production"
 NODE_VERSION = "21.1.0"
-YARN_VERSION = "1.22.19"
+YARN_VERSION = "1.22.0"
 
 [env.preview]
 name = "home-preview"
 NODE_VERSION = "21.1.0"
 YARN_VERSION = "1.22.0"
-
-[deployments]
-production = { branch = "master" }
-preview = { branch = "dev" }
